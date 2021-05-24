@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Отдел кадров</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link width = 16px height = 16px rel="shortcut icon" href="https://www.rosatom.ru/local/tpl/img/site_rosatom_ru.png" type="image/x-icon">
+     <script type="text/javascript" src="js/loader.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="js/jquery.arcticmodal-0.3.css">
+     </head>
+
+<body>
+    <div class="container clearfix">
+        <div class="slider padding-site">
+            <div class="header clearfix">
+                <a href="#"><img src="https://www.rosatom.ru/local/tpl/img/site_rosatom_ru.png" alt="logo"></a>
+                <ul class="menu clearfix">
+                    <li class="menu-list"><a href="main.html" class="menu-link ">Главная</a></li>
+                    <li class="menu-list"><a href="main.html" class="menu-link menu-link-active">Отдел кадров</a></li>
+                    <li class="menu-list"><a href="rubric2.html" class="menu-link">Тестики</a></li>
+                    <li class="menu-list"><a href="rubric3.html" class="menu-link">FAQ</a></li>
+                    <li class="menu-list"><a href="lk.html" class="menu-link">Личный кабинет</a></li>
+                    <li class="menu-list">
+                        <a href="" class="menu-link"><img src="image/search.svg" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="slider_text">
+                <p class="trending">Отдел кадров</p>
+                <div class = "log_form2">
+                    <p class = "welcome">Добавить нового сотрудника</p>
+                    <p class="log_txt">ФИО</p>
+                    <input type="text" class="log-put2" name=""  required id="log-fio">
+                    <p class="log_txt">Возраст</p>
+                    <input type="text" class="log-put2" name=""  required id="log-age">
+                    <p class="log_txt">Пол</p>
+                    <input type="radio" class="log-put2" name="sex"  required id="log-sex1">
+                    <input type="radio" class="log-put2" name="sex"  required id="log-sex2">
+                    <p class="log_txt">Должность</p>
+                    <input type="text" class="log-put2" name=""  required id="log-prof">
+                    <p class="log_txt">Длительность стажировки</p>
+                    <input type="text" class="log-put2" name=""  required id="log-dur">
+                    <p class="log_txt">Email</p>
+                    <input type="text" class="log-put2" name="" required id="log-em">
+                    <p class="log_txt">Логин</p>
+                    <input type="email" class="log-put2" name="" required id="log-log">
+                    <p class="log_txt">Пароль</p>
+                    <input type="password" class="log-put2" name="" required id="log-pass">
+                    <a href="#" class="button1" onclick="toServ('log-put2')" >Отправить</a>
+               </div>
+                <span class="trending" onclick = "oknoShow('dede'), tableCreate()">Узнать сводную информацию о сотрудниках</span>
+        <div class = "okno">
+           <div class="box-modal" id="dede" style=" overflow: auto; width: 900px; height: 500px">
+            
+           </div> 
+        </div>
+        </div>
+    </div>
+    <div class="clr"></div>
+    <div class="clr"></div>
+</body>
+<div class="footer padding-site clearfix">
+        <p class="contact">Свяжись с нами</p>
+        <p class="adress">Москва, Красная площадь&nbsp;Россия.
+            <br>
+            <br> Обращайтесь&nbsp;по&nbsp;1337&nbsp;228. contact@rosatom.tu</p>
+        <div class="useful-container">
+            <p class="usefulinf">Полезная информация</p>
+            <ul class="useful1-menu">
+                <li class="useful-list"><a class="useful-link" href="">Техническая поддержа</a></li>
+                <li class="useful-list"><a class="useful-link" href="">Свяжись с&nbsp;куратором</a></li>
+            </ul>
+            <ul class="useful2-menu">
+                <li class="useful-list"><a class="useful-link" href="">Исправить ошибку</a></li>
+                <li class="useful-list"><a class="useful-link" href="">Нормативные документы</a></li>
+            </ul>
+        </div>
+        <div class="lets-container">
+            <p class="lets">Подпишитесь чтобы узнать <br> <br>  о новостях.</p>
+            <input type="email" class="mail-put" placeholder="Ваш адрес электронной почты"> </div>
+        <p class="copyright">&copy;Copyright - РОСАТОМ 2021. Все права защищены.</p>
+        <ul class="social-menu">
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/facebook.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/twitter.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/google-plus.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/pinterest.svg" alt=""></a></li>
+        </ul>
+        <p class="terms">Terms &amp; Conditions / Privacy policy &amp; Cookies</p>
+    </div>
+</html>

@@ -1,0 +1,184 @@
+.container_lk{
+    height: 550px;
+    display: block;
+}
+.user_foto{
+    height: 450px;
+    width: 500px;
+    float: left;
+}
+.user_info_container{
+	display: inline-block;
+	padding-left: 20px;
+}
+.user_info_txt{
+	color: #8c8c8c;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 20px 0 20px 20px;
+}
+.progress {
+    display: flex;
+    height: 1rem;
+    overflow: hidden;
+    font-size: .75rem;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    margin-left: 25PX;
+}
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #0d6efd;
+    transition: width .6s ease;
+}
+.bg-success {
+    background-color: #198754!important;
+}
+.bg-info {
+    background-color: #0dcaf0!important;
+}
+.log_form{
+	width: 300px;
+	margin: 0 auto;
+	margin-top:100px;
+	height: 400px;
+	box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    margin-bottom: 200px;
+}
+.log_form2{
+    width: 680px;
+    height: 750px;
+}
+.welcome{
+	font-size: 24px;
+	color: #212121;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+.login_LOGO{
+	margin-left: 110px;
+}
+.btn-primary
+{
+	margin-left: 100px;
+	margin-top: 10px;
+}
+.log_txt{
+	color: #8c8c8c;
+    font-size: 20px;
+    font-weight: 300;
+    padding-bottom: 12px;
+    padding-top: 12px; 
+    margin-left: 12px;
+}
+.log-put{
+	width: 280px;
+    height: 24px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 7.5px;
+}
+.log-put2{
+    width: 650px;
+    height: 24px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-left: 7.5px;
+    display: inline-block;
+}
+.button1 {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 212px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 3.6px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.slider{
+	background-image: none;
+}
+.test-container{
+	height: 2200px;
+	width: 100%;
+	position: relative;
+	display:block;
+}
+.answer-list{
+	list-style-type: none;
+}
+.answers{
+	margin-top: 10px;
+	font-weight: 300px;
+}
+.question{
+	margin-top: 10px;
+	font-size: 24px;
+	font-weight: 700;
+}
+.tags{
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+	margin-left: 300px;
+	float: none;
+}
+.tags2{
+	margin-left: 280px;
+	float: right;
+}
+.tag-list{
+	float: none;
+	display: inline-block;
+}
+.tags-link{
+	color: #5D87E8;
+    font-size: 24px;
+    font-weight: 600;
+}
+.okno{
+	height: 500px;
+	width: 500px;
+	text-align: center;
+  	padding: 15px;
+  	border: 3px solid;
+  	border-radius: 20px;
+	margin: 0 auto;
+	display: none;
+	background-color: #C7C7C7;
+}
+.FAQ{
+	margin-top: 200px;
+	display: inline-block;
+}
+.txt{
+	margin-top: 0;
+	font-size: 76px;
+}
+#log-sex1{
+    width: 300px;
+}
+#log-sex2{
+    width: 300px;
+}

